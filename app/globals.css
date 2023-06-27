@@ -47,5 +47,5 @@
 }
 
 .title {
-    @apply font-bold text-9xl tracking-[-11px] bg-clip-text text-transparent brightness-0 invert-0 animation px-3
+    @apply font-bold text-9xl tracking-[-11px] bg-clip-text text-transparent brightness-0 invert-0 animation
 }

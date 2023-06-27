@@ -5,7 +5,7 @@ import fileIcon from '../../../public/icons8-file.svg'
 
 const SocialLinks = () => {
     return (
-        <div className='flex mt-10 gap-1'>
+        <div className='flex gap-1'>
             <a href='https://br.linkedin.com/in/pedro-henrique-89689b146' target='_blank' className='hover:-translate-y-1.5 transition-transform duration-100'>
                 <Image src={linkedinIcon} alt='linkedin-link' width={35} />
             </a>
