@@ -1,7 +1,7 @@
 import Image from "next/image";
-import linkedinIcon from '../../../public/icons8-linkedin.svg'
-import githubIcon from '../../../public/icons8-github.svg'
-import fileIcon from '../../../public/icons8-file.svg'
+import linkedinIcon from '../../../public/icons8-linkedin-50.png'
+import githubIcon from '../../../public/icons8-github-30.png'
+import fileIcon from '../../../public/icons8-documento-30.png'
 
 const SocialLinks = () => {
     return (
