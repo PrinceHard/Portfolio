@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        inter: ['var(--font-inter)'],
+      },
       backgroundImage: {
+        'hero-colorful': "url('http://localhost:3000/main-gradient.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

@@ -2,4 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.title {
+    @apply font-extrabold text-7xl tracking-[-5px] sm:text-[88px] sm:leading-none md:text-[112px] md:leading-none lg:text-9xl sm:tracking-[-11px] md:tracking-[-11px] lg:tracking-[-11px] bg-clip-text text-transparent brightness-0 invert-0 animation
+}
 
+@keyframes colorCycle {
+    0%,
+    55% {
+        filter: brightness(0), invert(0);
+    }
+    11%,
+    33% {
+        filter: none
+    }
+}
+
+.animation {
+    animation: colorCycle 8s infinite;
+}
+
+.second {
+    animation-delay: 4s !important;
+}
