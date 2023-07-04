@@ -1,7 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
 import SocialLinks from "./components/SocialLinks";
+import { ParallaxText } from "./ParallaxFunction";
+import { Plaster } from "next/font/google";
+import {listObject} from "../app/data/index"
+import Project from "./components/Project";
 
+const plaster = Plaster({ subsets: ['latin'], weight: '400', variable: '--font-plaster' })
 export default function Home() {
 
 	return (
@@ -41,6 +46,24 @@ export default function Home() {
 							</h3>
 						</div>
 					</div>
+					<div className={`${plaster.variable} bg-transparent bottom-0 absolute`}>
+						<ParallaxText baseVelocity={-5}>Java spring postgres nest</ParallaxText>
+					</div>
+				</div>
+			</section>
+			<section id="projects" className="bg-gradient animate-gradient relative">
+				<div className={`${plaster.variable} bg-transparent`}>
+					<ParallaxText baseVelocity={5}>Typescript next react tailwind</ParallaxText>
+				</div>
+				<div className="pt-20">
+					<h1 className="font-extrabold text-8xl text-center tracking-[-8px]">
+						Projetos
+					</h1>
+				</div>
+				<div className="grid grid-cols-2 px-12 py-20">
+					{listObject.map((n) => 
+						<Project project={n} />
+					)}
 				</div>
 			</section>
 		</>
