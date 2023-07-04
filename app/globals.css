@@ -6,6 +6,14 @@
     @apply font-extrabold text-7xl tracking-[-5px] sm:text-[88px] sm:leading-none md:text-[112px] md:leading-none lg:text-9xl sm:tracking-[-11px] md:tracking-[-11px] lg:tracking-[-11px] bg-clip-text text-transparent brightness-0 invert-0 animation
 }
 
+.parallax span {
+    @apply block mr-8 font-plaster 
+}
+
+.parallax .scroller {
+    @apply font-semibold uppercase text-6xl flex whitespace-nowrap flex-nowrap
+}
+
 @keyframes colorCycle {
     0%,
     55% {
@@ -17,6 +25,11 @@
     }
 }
 
+.bg-gradient{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+}
+
 .animation {
     animation: colorCycle 8s infinite;
 }
@@ -24,3 +37,19 @@
 .second {
     animation-delay: 4s !important;
 }
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 7px;
+    background: rgb(238, 238, 238);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(20, 20, 20);
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  
