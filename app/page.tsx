@@ -12,10 +12,10 @@ export default function Home() {
 	return (
 		<>
 			<section className="bg-hero-colorful bg-cover bg-no-repeat h-screen">
-				<div className="bg-[rgba(255,255,255,0.4)] h-full">
-					<div className='flex flex-col w-3/4 sm:w-3/5 md:w-[500px] lg:w-2/4 mx-auto pt-24'>
+				<div className="bg-[rgba(255,255,255,0.5)] h-full">
+					<div className='flex flex-col w-3/4 sm:w-3/5 md:w-[500px] lg:w-3/5 big:w-5/12 full-hd:w-[37%] mx-auto h-full justify-center'>
 						<div className="">
-							<h2 className='font-extrabold text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-900 tracking-tighter text-left'>
+							<h2 className='font-extrabold text-base sm:text-lg md:text-xl lg:text-3xl text-zinc-900 tracking-tighter text-left'>
 								OLÁ &#x1F44B; EU SOU O PEDRO
 							</h2>
 						</div>
@@ -41,7 +41,7 @@ export default function Home() {
 							</h1>
 						</motion.div>
 						<div className="">
-							<h3 className='text-zinc-900 text-[10px] sm:text-xs md:font-normal md:text-sm lg:font-medium text-right'>
+							<h3 className='text-zinc-900 text-[10px] sm:text-xs md:font-normal md:text-sm lg:font-medium lg:text-base text-left'>
 								Estudante de Sistemas de Informação, tenho 21 anos. Amo estudar tecnologia e descobrir coisas novas. Tenho experiência com desenvolvimento fullstack a mais de dois anos. No momento estudando mais sobre Nest.JS ...
 							</h3>
 						</div>
@@ -51,16 +51,16 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section id="projects" className="bg-gradient animate-gradient relative">
+			<section id="projects" className="bg-gradient animate-gradient relative h-screen">
 				<div className={`${plaster.variable} bg-transparent`}>
 					<ParallaxText baseVelocity={5}>Typescript next react tailwind</ParallaxText>
 				</div>
 				<div className="pt-20">
-					<h1 className="font-extrabold text-8xl text-center tracking-[-8px]">
+					<h1 className="font-extrabold text-6xl sm:text-6xl md:text-7xl lg:text-8xl text-center tracking-[-5px] lg:tracking-[-8px] sm:tracking-[-5px]">
 						Projetos
 					</h1>
 				</div>
-				<div className="grid grid-cols-2 px-12 py-20">
+				<div className="grid max-sm:grid-cols-1 grid-cols-2 px-12 py-20 gap-16">
 					{listObject.map((n) => 
 						<Project project={n} />
 					)}
