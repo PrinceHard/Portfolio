@@ -7,8 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
+      screens: {
+        'full-hd': '1666px',
+        'big': '1280px',
+      },
+      keyframes: {
+        gradient: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' }
+        }
+      },
+      animation: {
+        gradient: 'gradient 15s ease infinite'
+      },
+      fontFamily: {
         inter: ['var(--font-inter)'],
+        plaster: ['var(--font-plaster)']
+      },
+      fontSize: {
+        'xxl': '138px'
       },
       backgroundImage: {
         'hero-colorful': "url('http://localhost:3000/main-gradient.png')",
