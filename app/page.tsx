@@ -62,7 +62,7 @@ export default function Home() {
 				</div>
 				<div className="grid max-sm:grid-cols-1 grid-cols-2 px-12 py-20 gap-16">
 					{listObject.map((n) => 
-						<Project project={n} />
+						<Project project={n} key={n.id} />
 					)}
 				</div>
 			</section>
