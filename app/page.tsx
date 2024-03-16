@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id="projects" className="bg-gradient animate-gradient relative h-screen">
+            <section id="projects" className="bg-gradient animate-gradient relative ">
                 <div className={`${plaster.variable} bg-transparent`}>
                     <ParallaxText baseVelocity={5}>Typescript next react tailwind</ParallaxText>
                 </div>
