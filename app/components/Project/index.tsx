@@ -6,7 +6,6 @@ export interface TypeProps {
         src: string,
         mockupImage: string,
         title: string,
-        technologies: string[]
     }
 }
 
@@ -20,11 +19,6 @@ const Project = ({ project }: TypeProps) => {
                 <h2 className="text-lg sm:text-lg md:text-lg lg:text-xl big:text-2xl font-semibold text-white tracking-tighter uppercase">
                     {project.title}
                 </h2>
-                <div className="flex justify-center gap-3 h-8">
-                    {project.technologies.map((n) => (
-                        <Image src={n} alt="technologie-icon" width={32} key={project.id} height={32} />
-                    ))}
-                </div>
             </div>
         </a>
     )

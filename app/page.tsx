@@ -60,7 +60,7 @@ export default function Home() {
                         Projetos
                     </h1>
                 </div>
-                <div className="grid max-sm:grid-cols-1 grid-cols-2 px-12 py-20 gap-16">
+                <div className="grid max-sm:grid-cols-1 grid-cols-2 mx-auto w-2/3 py-20 gap-10">
                     {listObject.map((n) =>
                         <Project project={n} key={n.id} />
                     )}
