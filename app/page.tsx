@@ -42,8 +42,8 @@ export default function Home() {
 						</motion.div>
 						<div className="">
 							<h3 className='text-zinc-900 text-[10px] sm:text-xs md:font-normal md:text-sm lg:font-medium lg:text-base text-left'>
-								Estudante de Sistemas de Informação, tenho 21 anos. Amo estudar tecnologia e descobrir coisas novas. Tenho experiência com desenvolvimento fullstack a mais de dois anos. No momento estudando mais sobre Nest.JS ...
-							</h3>
+								Bacharel em Sistemas de Informação, tenho 22 anos. Amo estudar tecnologia e descobrir coisas novas. Tenho experiência com desenvolvimento fullstack a mais de três anos. No momento me especializando em NestJs e AWS... 
+                                </h3>
 						</div>
 					</div>
 					<div className={`${plaster.variable} bg-transparent bottom-0 absolute`}>
