@@ -1,16 +1,26 @@
 export const listObject = [
     {
         id: 1,
-        src: "https://sekailist-five.vercel.app/",
-        title: "Site de Animes",
-        mockupImage: "/mockup-sekailist-notebook.png",
-        technologies: ["/react.png", "/javascript.png"]
+        src: "https://vercode.vercel.app/",
+        title: "Vercode",
+        mockupImage: "/vercode.png",
     },
     {
         id: 2,
+        src: "https://vastransportes.com.br/",
+        title: "Vas Transportes",
+        mockupImage: "/vastransportes.png",
+    },
+    {
+        id: 3,
+        src: "https://sekailist-five.vercel.app/",
+        title: "Sekai List",
+        mockupImage: "/mockup-sekailist-notebook.png",
+    },
+    {
+        id: 4,
         src: "https://cristmas-app-store.netlify.app/",
-        title: "Landing Page Natalina",
+        title: "Christmas Gift",
         mockupImage: "/mockup-site-natal.png",
-        technologies: ["/html.png", "/css.png", "/javascript.png"]
     }
 ]
