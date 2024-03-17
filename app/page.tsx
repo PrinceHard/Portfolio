@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <section className="bg-hero-colorful bg-cover bg-no-repeat h-screen">
                 <div className="bg-[rgba(255,255,255,0.5)] h-full">
-                    <div className='flex flex-col w-3/4 sm:w-3/5 md:w-[500px] lg:w-3/5 big:w-5/12 full-hd:w-[37%] mx-auto h-full justify-center'>
+                    <div className='flex flex-col sm:w-3/5 md:w-[500px] lg:w-3/5 big:w-5/12 full-hd:w-[37%] mx-4 h-full justify-center'>
                         <div className="">
                             <h2 className='font-extrabold text-base sm:text-lg md:text-xl lg:text-3xl text-zinc-900 tracking-tighter text-left'>
                                 OLÁ &#x1F44B; EU SOU O PEDRO
@@ -46,7 +46,7 @@ export default function Home() {
                             </h3>
                         </div>
                     </div>
-                    <div className={`${plaster.variable} bg-transparent bottom-0 absolute`}>
+                    <div className={`${plaster.variable} bg-transparent -translate-y-16`}>
                         <ParallaxText baseVelocity={-5}>Java spring postgres nest</ParallaxText>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export default function Home() {
                         Projetos
                     </h1>
                 </div>
-                <div className="grid max-sm:grid-cols-1 grid-cols-2 mx-auto w-2/3 py-20 gap-10">
+                <div className="grid max-sm:grid-cols-1 grid-cols-2 mx-auto w-[75%] py-20 gap-12 gap-y-28">
                     {listObject.map((n) =>
                         <Project project={n} key={n.id} />
                     )}
