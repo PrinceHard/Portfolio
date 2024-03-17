@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <section className="bg-hero-colorful bg-cover bg-no-repeat h-screen">
                 <div className="bg-[rgba(255,255,255,0.5)] h-full">
-                    <div className='flex flex-col sm:w-3/5 md:w-[500px] lg:w-3/5 big:w-5/12 full-hd:w-[37%] mx-4 h-full justify-center'>
+                    <div className='flex flex-col sm:w-3/5 md:w-[500px] lg:w-3/5 big:w-5/12 full-hd:w-[37%] mx-4 md:mx-auto h-full justify-center'>
                         <div className="">
                             <h2 className='font-extrabold text-base sm:text-lg md:text-xl lg:text-3xl text-zinc-900 tracking-tighter text-left'>
                                 OLÁ &#x1F44B; EU SOU O PEDRO
